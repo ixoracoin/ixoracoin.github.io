@@ -1,5 +1,7 @@
 // Set the date we're counting down to
-var countDownDate = new Date("March 01, 2023 14:30:00").getTime();
+// Set the date we're counting down to January February March April May June July August September October November December
+
+var countDownDate = new Date("March 15, 2023 14:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -23,6 +25,10 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Next month";
+    document.getElementById("demo").innerHTML = "token launched";
   }
 }, 1000);
+
+
+
+
